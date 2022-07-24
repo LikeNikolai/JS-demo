@@ -15,6 +15,13 @@
 .gallery-item {
     width: auto;
     height: auto;
+    transform: scale(1);
+    transition: transform linear 0.25s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 .gallery-item:nth-child(1) {
