@@ -1,0 +1,2 @@
+array.forEach(element => {});
+//
